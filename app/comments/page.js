@@ -10,7 +10,7 @@ export default function Comment() {
         fetch('/api/get-comments')
             .then((response) => response.json())
             .then((data) => {
-                setComments(data.comments);
+                setComments(data.comments || []);
             })
             .catch((error) => console.error('Error fetching comments:', error));
     }, []);

@@ -91,7 +91,7 @@ const Comment = () => {
                 <button type='submit'>Submit</button>
             </form>
             <ul>
-                {comments.map((comment, index) => (
+                {Array.isArray(comments) && comments.map((comment, index) => (
                     <li key={index}>
                         {comment.username} {comment.comment}
                     </li>

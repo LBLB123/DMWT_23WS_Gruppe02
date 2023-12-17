@@ -7,12 +7,12 @@ export default function Comment() {
     const [comments, setComments] = useState([]);
 
     useEffect(() => {
-        fetch('https://jsonplaceholder.typicode.com/comments')
+        fetch('/api/get-comments')
             .then((response) => response.json())
             .then((data) => {
-                const firstTenComments = data.slice(0, 10);
-                setComments(firstTenComments);
-            });
+                setComments(data.comments);
+            })
+            .catch((error) => console.error('Error fetching comments:', error));
     }, []);
 
     return (
@@ -20,16 +20,16 @@ export default function Comment() {
             <Header />
 
             <main>
-                <h1>comment</h1>
+                <h1>Comments</h1>
                 <ul>
                     {comments.map((comment) => (
                         <li key={comment.id}>
-                            {comment.name}: {comment.body}
+                            {comment.comment} - {comment.username}
                         </li>
                     ))}
                 </ul>
-                <h1>g</h1>
             </main>
+
             <Footer />
         </div>
     );

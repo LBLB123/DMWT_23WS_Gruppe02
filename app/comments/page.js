@@ -12,7 +12,7 @@ const Comment = () => {
     const {
         data: comments,
         isLoading,
-        error
+        isError: error
     } = useSWR('/api/get-comments', fetcher, {
         revalidateOnFocus: false,
         revalidateOnReconnect: false
@@ -32,34 +32,18 @@ const Comment = () => {
             const newComment = {
                 comment: comment,
                 username: username,
-            };
-
-            try {
-                const response = await fetch('/api/get-comments', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify(newComment),
-                });
-
-                if (!response.ok) {
-                    throw new Error(`HTTP error! Status: ${response.status}`);
-                }
-
-                const responseData = await response.text();
-                const parsedData = responseData ? JSON.parse(responseData) : null;
-
-                return parsedData;
-            } catch (error) {
-                console.error('Error fetching comments:', error);
-                return null;
             }
-        };
+
+            const response = await fetch('/api/add-comment', {
+                    method: 'COMMENT',
+                    body: JSON.stringify(newComment),
+                })
+                return response.json()
+        }
 
         postData().then(data => {
             console.log(JSON.stringify(data));
-        });
+        })
     }
 
 

@@ -1,16 +1,14 @@
 import { sql } from '@vercel/postgres';
-import { NextResponse } from 'next/server';
 
-export async function GET(request) {
+export default async function handler(request, response) {
     try {
         const result =
             await sql`CREATE TABLE IF NOT EXISTS Comments (
-                id SERIAL PRIMARY KEY,
                 username varchar(255),
-                comment text
+                comment varchar(255),
             );`;
-        return NextResponse.json({ result }, { status: 200 });
+        return response.status(200).json({result});
     } catch (error) {
-        return NextResponse.json({ error }, { status: 500 });
+        return response.status(500).json({error});
     }
 }

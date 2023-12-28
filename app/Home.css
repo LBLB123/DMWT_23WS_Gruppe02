@@ -1,4 +1,8 @@
-.textContainer {
+.container {
+    display: flex;
+}
+
+.heroTextContainer {
     max-width: 30%;
     height: auto;
     background-color: #E8E0FF;
@@ -9,17 +13,27 @@
     margin-top: 10%;
     margin-bottom: 10%;
     margin-left: 10px;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
 }
 
-.textContainer_h1 {
+.heroTextContainer_h1 {
     font-size: 60px;
     max-width: 100%;
     margin: 20px;
 }
 
-.textContainer_p {
+.heroTextContainer_p {
     font-size: 24px;
     max-width: 100%;
     margin: 20px;
+}
+.heroImage-container {
+    margin-left: 20px;
+    margin-top: 2%;
+}
+
+.heroImage-container img {
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
 }

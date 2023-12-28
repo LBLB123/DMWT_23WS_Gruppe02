@@ -37,3 +37,18 @@
     height: auto;
     border-radius: 20px;
 }
+
+.eWasteImageContainer{
+    margin-left: 20px;
+    margin-top: 2%;
+}
+
+.eWasteImageContainer img{
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.eWasteTextContainer{
+
+}

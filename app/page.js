@@ -5,6 +5,7 @@ import Footer from './Footer';
 import Link from "next/link";
 import Image from "next/image";
 import hardware from "./img/pexels-valentine-tanasovich-2588757.jpg"
+import ewaste from "./img/e-waste-5963979_1280.jpg"
 
 
 export default function Home() {
@@ -35,7 +36,13 @@ export default function Home() {
                     />
                 </div>
             </div>
+            <div className="eWasteImageContainer">
+                <Image
+                    src={ewaste}
 
+                    alt="eWaste"
+                />
+            </div>
 
 
             <h2>Das Elektroschrott Problem</h2>

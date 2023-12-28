@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2622ac84-7d58-436a-af7d-4630c354d189" name="Changes" comment="hedo">
+      <change afterPath="$PROJECT_DIR$/app/timeline.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/add-comment/route.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/add-comment/route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/create-comments-table/route.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/create-comments-table/route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/comments/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/comments/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/Home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/comments/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/comments/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -51,29 +54,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/bluml/IdeaProjects/DMWT_23WS_Gruppe02/app/api/get-comments&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/bluml/IdeaProjects/DMWT_23WS_Gruppe02/app/comments",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bluml\IdeaProjects\DMWT_23WS_Gruppe02\app\comments" />
       <recent name="C:\Users\bluml\IdeaProjects\DMWT_23WS_Gruppe02\app\api\get-comments" />
       <recent name="C:\Users\bluml\IdeaProjects\DMWT_23WS_Gruppe02\app\api\add-comment" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\bluml\IdeaProjects\DMWT_23WS_Gruppe02\app\api" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/../untitled6/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -86,6 +108,7 @@
       <workItem from="1702763326939" duration="5237000" />
       <workItem from="1702808995919" duration="13546000" />
       <workItem from="1703157348848" duration="8000" />
+      <workItem from="1703760922953" duration="7407000" />
     </task>
     <task id="LOCAL-00001" summary="ff">
       <option name="closed" value="true" />

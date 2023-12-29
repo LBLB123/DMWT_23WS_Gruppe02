@@ -59,7 +59,7 @@ export default function Home() {
                         luctus sagittis lectus. Curabitur fermentum leo nec rhoncus posuere. Nunc venenatis, nunc eu porttitor mollis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Phasellus ligula massa, rhoncus a odio iaculis, luctus sagittis lectus. Curabitur fermentum leo nec rhoncus posuere. Nunc venenatis, nunc eu porttitor mollis.
                     </p>
-                    <button className={styles.meinButton}>
+                    <button className="eWasteButton">
                         Klick mich
                     </button>
                 </div>
@@ -124,11 +124,24 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <h2>Was wir anbieten</h2>
-            <p>
-                Unsere Vision ist es, eine Welt zu schaffen, in der Technologie und Umweltschutz
-                Hand in Hand gehen. Wir setzen auf Innovation und Verantwortung, um eine nachhaltige Zukunft zu gestalten.
-            </p>
+            <div className="container">
+                <div className="DL-textContainer">
+            <h1>Was wir anbieten</h1>
+
+                    <h2> Forum</h2>
+                    <p>
+                        Werden Sie Teil unserer Community im Forum. Tauschen Sie sich aus und gestalten Sie aktiv die grüne Revolution mit.
+                        Machen Sie mit und recyceln Sie nicht nur Hardware, sondern auch Ihr technisches Know-how!
+                    </p>
+
+                    <h2> Kontakt</h2>
+                    <p>
+                        Bei Fragen oder Anregungen steht unsere Berater für Sie bereit.
+                        Klicken Sie jetzt, um mit uns in Verbindung zu treten und gemeinsam an einer nachhaltigen IT-Zukunft zu arbeiten!
+                    </p>
+                </div>
+
+            </div>
 
 
 

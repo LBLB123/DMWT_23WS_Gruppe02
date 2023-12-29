@@ -16,13 +16,13 @@
     border-radius: 20px;
 }
 
-.heroTextContainer_h1 {
+.heroTextContainer h1 {
     font-size: 60px;
     max-width: 100%;
     margin: 20px;
 }
 
-.heroTextContainer_p {
+.heroTextContainer p {
     font-size: 24px;
     max-width: 100%;
     margin: 20px;
@@ -40,15 +40,64 @@
 
 .eWasteImageContainer{
     margin-left: 20px;
-    margin-top: 2%;
+    margin-bottom: 60px;
+
 }
 
 .eWasteImageContainer img{
-    width: 50%;
+    width: 180%;
     height: auto;
     border-radius: 20px;
 }
 
 .eWasteTextContainer{
+    display: flex;
+    flex-direction: column;
 
+    margin-left: 20%;
+    margin-right: 10%;
+
+
+}
+
+.eWasteTextContainer h2{
+    font-size: 24px;
+}
+
+.eWasteTextContainer p{
+    font-size: 16px;
+}
+
+.meinButton{
+    background-color: #4A7E43;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.callToActionButton_position{
+    margin-left: 20px;
+    margin-bottom: 60px;
+    margin-top: -100px;
+
+}
+
+.callToActionButton{
+    background-color: #4A7E43;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.callToActionButton:hover,
+.callToActionButton:active {
+    background-color: darkgreen;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }

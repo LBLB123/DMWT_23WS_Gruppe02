@@ -1,9 +1,12 @@
+
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
     background-color: #E8E0FF;
+    margin: 0;
 }
 
 .nav {

@@ -16,52 +16,83 @@ export default function Home() {
         <main>
             <div className={"container"}>
                 <div className="heroTextContainer">
-                    <h1 className="heroTextContainer_h1">Dein Beitrag
+                    <h1>Dein Beitrag
                         für eine
                         bessere Welt
 
                     </h1>
 
-                    <p className="heroTextContainer_p">
+                    <p>
                         Willkommen bei Hardware Recycler. Wir bieten informative Tipps und Lösungen wie Sie ihre Hardware richtig recyceln.
                         Informieren Sie sich über unsere Dienstleistungen und werden Sie schon heute ein Teil einer nachhaltigen Zukunft.
 
                     </p>
+
                 </div>
+
                 <div className="heroImage-container">
                     <Image
                         src={hardware}
-
                         alt="hardware"
                     />
                 </div>
             </div>
-            <div className="eWasteImageContainer">
-                <Image
-                    src={ewaste}
+            <div className="callToActionButton_position">
+                <button className="callToActionButton">
+                    Erfahre Mehr!
+                </button>
+            </div>
 
-                    alt="eWaste"
-                />
+            <div className="container">
+                <div className="eWasteImageContainer">
+                    <Image
+                        src={ewaste}
+
+                        alt="eWaste"
+                    />
+                </div>
+
+                <div className="eWasteTextContainer">
+                    <h2>Das Elektroschrott Problem</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ligula massa, rhoncus a odio iaculis,
+                        luctus sagittis lectus. Curabitur fermentum leo nec rhoncus posuere. Nunc venenatis, nunc eu porttitor mollis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Phasellus ligula massa, rhoncus a odio iaculis, luctus sagittis lectus. Curabitur fermentum leo nec rhoncus posuere. Nunc venenatis, nunc eu porttitor mollis.
+                    </p>
+                    <button className={styles.meinButton}>
+                        Klick mich
+                    </button>
+                </div>
+
+
             </div>
 
 
-            <h2>Das Elektroschrott Problem</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ligula massa, rhoncus a odio iaculis,
-                luctus sagittis lectus. Curabitur fermentum leo nec rhoncus posuere. Nunc venenatis, nunc eu porttitor mollis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus ligula massa, rhoncus a odio iaculis, luctus sagittis lectus. Curabitur fermentum leo nec rhoncus posuere. Nunc venenatis, nunc eu porttitor mollis.
-            </p>
             <div className="timeline">
                 <div className="T_container left">
                     <div className="content">
                         <h2>Abholung</h2>
-                        <p>Lorem ipsum..</p>
+                        <div className="T-Animation_Placeholder">Animation</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ligula massa, rhoncus a odio iaculis,
+                            luctus sagittis lectus. Curabitur fermentum leo nec rhoncus posuere. Nunc venenatis, nunc eu porttitor mollis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus ligula massa, rhoncus a odio iaculis, luctus sagittis lectus. Curabitur fermentum leo nec rhoncus posuere. Nunc venenatis, nunc eu porttitor mollis.
+                        </p>
+                        <button className={styles.meinButton}>
+                            Klick mich
+                        </button>
                     </div>
                 </div>
                 <div className="T_container right">
                     <div class="content">
                         <h2>Transport</h2>
-                        <p>Lorem ipsum..</p>
+                        <div className="T-Animation_Placeholder">Animation</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ligula massa, rhoncus a odio iaculis,
+                            luctus sagittis lectus. Curabitur fermentum leo nec rhoncus posuere. Nunc venenatis, nunc eu porttitor mollis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus ligula massa, rhoncus a odio iaculis, luctus sagittis lectus. Curabitur fermentum leo nec rhoncus posuere. Nunc venenatis, nunc eu porttitor mollis.
+                        </p>
+                        <button className={styles.meinButton}>
+                            Klick mich
+                        </button>
                     </div>
                 </div>
             </div>
@@ -69,13 +100,27 @@ export default function Home() {
                 <div className="T_container left">
                     <div className="content">
                         <h2>Demontage</h2>
-                        <p>Lorem ipsum..</p>
+                        <div className="T-Animation_Placeholder">Animation</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ligula massa, rhoncus a odio iaculis,
+                            luctus sagittis lectus. Curabitur fermentum leo nec rhoncus posuere. Nunc venenatis, nunc eu porttitor mollis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus ligula massa, rhoncus a odio iaculis, luctus sagittis lectus. Curabitur fermentum leo nec rhoncus posuere. Nunc venenatis, nunc eu porttitor mollis.
+                        </p>
+                        <button className={styles.meinButton}>
+                            Klick mich
+                        </button>
                     </div>
                 </div>
                 <div className="T_container right">
                     <div className="content">
                         <h2>Recycling</h2>
-                        <p>Lorem ipsum..</p>
+                        <div className="T-Animation_Placeholder">Animation</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ligula massa, rhoncus a odio iaculis,
+                            luctus sagittis lectus. Curabitur fermentum leo nec rhoncus posuere. Nunc venenatis, nunc eu porttitor mollis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus ligula massa, rhoncus a odio iaculis, luctus sagittis lectus. Curabitur fermentum leo nec rhoncus posuere. Nunc venenatis, nunc eu porttitor mollis.
+                        </p>
+                        <button className={styles.meinButton}>
+                            Klick mich
+                        </button>
                     </div>
                 </div>
             </div>

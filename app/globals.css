@@ -1,5 +1,10 @@
 body {
     background-color: #E6FEE5;
     font-family: 'Hauptschrift', sans-serif;
+    margin: 0;
+
+}
+body p{
+    line-height: 2;
 }
 

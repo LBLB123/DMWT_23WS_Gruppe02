@@ -67,6 +67,14 @@ export default function Home() {
 
             </div>
 
+              <div class="header">
+                  <h2>Scroll Indicator</h2>
+                  <div class="progress-container">
+                      <div class="progress-bar" id="myBar"></div>
+                  </div>
+              </div>
+
+              <div>content...</div>
 
             <div className="timeline">
                 <div className="T_container left">
@@ -132,10 +140,19 @@ export default function Home() {
 
 
 
-          <Link href="/comments">Comments</Link>
+              <Link href="/comments">Comments</Link>
 
         </main>
         <Footer />
       </div>
   )
+}
+
+window.onscroll = function () { scroll() };
+
+function scroll() {
+    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    var scrolled = (winScroll / height) * 100;
+    document.getElementById("myBar").style.height = scrolled + "%";
 }

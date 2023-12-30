@@ -40,12 +40,11 @@
 
 .eWasteImageContainer{
     margin-left: 20px;
-    margin-bottom: 60px;
 
 }
 
 .eWasteImageContainer img{
-    width: 180%;
+    width: 200%;
     height: auto;
     border-radius: 20px;
 }
@@ -56,6 +55,7 @@
 
     margin-left: 20%;
     margin-right: 10%;
+    margin-bottom: 5%;
 
 
 }
@@ -122,10 +122,70 @@
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
+.h1_Timeline_überschrift{
+    text-align: center;
+    font-weight: bold;
+}
+
 .DL-textContainer{
     display: flex;
     flex-direction: column;
-margin-top: 20%;
-    margin-left: 20%;
-    margin-right: 10%;
+    margin: 10%;
+}
+
+
+
+.quizTitle{
+    margin-top: 10%;
+}
+.quizTitle h1{
+    margin-left: 30%;
+}
+
+.quizContainer {
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 20px;
+    background-color: #E8E0FF;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.quizContainer img{
+    width: auto;
+    height: 50%;
+    max-height: 600px;
+
+}
+
+
+.quizContainer h3 {
+    margin-bottom: 10px;
+}
+
+
+.quizContainer input[type="radio"] {
+    margin-right: 5px;
+}
+
+
+.quizResult {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+
+.quizResult button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.quizResult button:hover {
+    background-color: #45a049;
 }

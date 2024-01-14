@@ -100,19 +100,47 @@ export default function Home() {
 
         return (
             <div>
-                <h3>{questions[quizStep - 1]}</h3>
-                <Image src={images[quizStep - 1]} alt={`Image for question ${quizStep}`} width={400} height={300} />
-                <div>
-                    {options[quizStep - 1].map((option, index) => (
-                        <div key={index}>
-                            <input type="radio" name={`question${quizStep}`} value={String.fromCharCode(97 + index)} onChange={() => handleAnswerSelection(String.fromCharCode(97 + index))} checked={selectedOption === String.fromCharCode(97 + index)} />
-                            <label>{option}</label>
+                <div className="quizLayoutContainer">
+                    <div className="quizContainer">
+                        <div className="quizTextContainer">
+                            <h2>{questions[quizStep - 1]}</h2>
+
+                            <div>
+                                {options[quizStep - 1].map((option, index) => (
+                                    <div key={index} className="container">
+                                        <input
+                                            type="radio"
+                                            name={`question${quizStep}`}
+                                            value={String.fromCharCode(97 + index)}
+                                            onChange={() => handleAnswerSelection(String.fromCharCode(97 + index))}
+                                            checked={selectedOption === String.fromCharCode(97 + index)}
+                                        />
+                                        <h3>
+                                            {option}
+                                        </h3>
+                                    </div>
+                                ))}
+                            </div>
+                            <button
+                                className="eWasteButton"
+                                onClick={handleNextQuestion}
+                                disabled={selectedOption === null}>
+                                Nächste Frage
+                            </button>
                         </div>
-                    ))}
+
+                        <Image
+                            src={images[quizStep - 1]}
+                            alt={`Image for question ${quizStep}`}
+                            width={400}
+                            height={300}
+                        />
+                    </div>
                 </div>
-                <button className="eWasteButton" onClick={handleNextQuestion} disabled={selectedOption === null}>
-                    Nächste Frage
-                </button>
+
+
+
+
             </div>
         );
     };
@@ -121,9 +149,9 @@ export default function Home() {
         const score = calculateScore();
         return (
             <div className="quizResult">
-                <h3>Quiz Ergebnis</h3>
-                <p>Du hast {score} von 10 Fragen richtig beantwortet.</p>
-                <button onClick={resetQuiz}>Quiz zurücksetzen</button>
+                <h2>Quiz Ergebnis</h2>
+                <h3 style={{ marginLeft: '5%' }}>Du hast {score} von 10 Fragen richtig beantwortet.</h3>
+                <button onClick={resetQuiz} >Quiz zurücksetzen</button>
             </div>
         );
     };
@@ -160,7 +188,7 @@ export default function Home() {
         <Header />
 
         <main>
-            <div className={"container"}>
+            <div className="container">
                 <div className="heroTextContainer">
                     <h1>Dein Beitrag
                         für eine
@@ -332,12 +360,12 @@ export default function Home() {
                 </div>
             </div>
 
-            <div name="quizSection" >
+            <div className="quizSection" >
                 <div className="quizTitle">
                     <h1>Testen Sie jetzt ihr Wissen!</h1>
-                    <div className="quizContainer">
+
                         {quizStep <= 10 ? renderQuestion() : renderResult()}
-                    </div>
+
                 </div>
 
             </div>

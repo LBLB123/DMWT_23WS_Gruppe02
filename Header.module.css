@@ -4,14 +4,32 @@
     display: flex;
 
     padding: 1rem;
+    width: 100%;
     background-color: #E8E0FF;
     margin: 0;
+
 }
 
 .header h1{
     margin-left: 15px;
 }
 
+.nav {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    list-style: none;
+    margin-left: 50%;
+    margin-top: 1.5%;
+    padding: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+}
 .logoContainer{
     margin: 2px;
 }

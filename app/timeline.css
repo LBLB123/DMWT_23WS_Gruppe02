@@ -55,6 +55,14 @@
     width: 50%;
 }
 
+.T_container img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+
+}
+
 
 .T_container::after {
     content: '';
@@ -72,6 +80,7 @@
 
 .left {
     left: 0;
+
 }
 
 

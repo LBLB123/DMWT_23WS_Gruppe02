@@ -19,6 +19,10 @@ import quizBild7 from "./img/Quiz_Bilder/elly-filho-uKB4O22KMMk-unsplash.jpg"
 import quizBild8 from "./img/Quiz_Bilder/pakata-goh-RDolnHtjVCY-unsplash.jpg"
 import quizBild9 from "./img/Quiz_Bilder/gary-chan-YzSZN3qvHeo-unsplash.jpg"
 import quizBild10 from "./img/Quiz_Bilder/Flaggen.JPG"
+import AbholungGIF from "./GIFS/Abholung.gif"
+import TransportGIF from "./GIFS/Transport.gif"
+import DemontageGIF from "./GIFS/Demontage.gif"
+import RecyclingGIF from "./GIFS/Recycling.gif"
 
 
 
@@ -234,7 +238,13 @@ export default function Home() {
                 <div className="T_container left">
                     <div className="content">
                         <h2>Abholung</h2>
-                        <div className="T-Animation_Placeholder">Animation</div>
+                        <div>
+                            <Image
+                                src={AbholungGIF}
+
+                                alt="Abholung"
+                            />
+                        </div>
                         <p>
                             Die Abholung von Elektroschrott erfolgt häufig durch spezialisierte Entsorgungsunternehmen
                             oder kommunale Abfallentsorgungsdienste.
@@ -250,7 +260,13 @@ export default function Home() {
                 <div className="T_container right">
                     <div class="content">
                         <h2>Transport</h2>
-                        <div className="T-Animation_Placeholder">Animation</div>
+                        <div>
+                            <Image
+                                src={TransportGIF}
+
+                                alt="Transport"
+                            />
+                        </div>
                         <p>
                             Nach der Abholung erfolgt der Transport des Elektroschrotts zu geeigneten Verarbeitungseinrichtungen.
                             In vielen Fällen werden Lkws für den Transport eingesetzt,
@@ -265,7 +281,13 @@ export default function Home() {
                 <div className="T_container left">
                     <div className="content">
                         <h2>Demontage</h2>
-                        <div className="T-Animation_Placeholder">Animation</div>
+                        <div>
+                            <Image
+                                src={DemontageGIF}
+
+                                alt="Demontage"
+                            />
+                        </div>
                         <p>
                             In den Verarbeitungseinrichtungen wird der Elektroschrott demontiert,
                             um wertvolle Materialien zurückzugewinnen und gefährliche Substanzen sicher zu entfernen.
@@ -280,7 +302,13 @@ export default function Home() {
                 <div className="T_container right">
                     <div className="content">
                         <h2>Recycling</h2>
-                        <div className="T-Animation_Placeholder">Animation</div>
+                        <div>
+                            <Image
+                                src={RecyclingGIF}
+
+                                alt="Recycling"
+                            />
+                        </div>
                         <p>
                             Der Recyclingprozess zielt darauf ab, wiederverwertbare Materialien wie Metalle,
                             Kunststoffe und Glas aus den Elektrogeräten zurückzugewinnen.

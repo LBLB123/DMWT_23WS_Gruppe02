@@ -44,7 +44,7 @@
 }
 
 .eWasteImageContainer img{
-    width: 200%;
+    width: 800px;
     height: auto;
     border-radius: 20px;
 }
@@ -52,11 +52,10 @@
 .eWasteTextContainer{
     display: flex;
     flex-direction: column;
-
-    margin-left: 20%;
+    background-color: #E8E0FF;
+    margin-left: 2%;
     margin-right: 10%;
     margin-bottom: 5%;
-
 
 }
 

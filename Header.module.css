@@ -25,10 +25,14 @@
 }
 
 .nav a {
+    width: auto;
+    height: 30px;
+    background-color: #4A7E43;
     text-decoration: none;
     color: #333;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 20px;
+    margin-left: 15%;
 }
 .logoContainer{
     margin: 2px;

@@ -15,12 +15,7 @@ const Header = () => {
                 />
             </div>
             <h1>Hardware Recycler</h1>
-            <nav className={styles.nav}>
-                <Link href="/">Einleitung</Link>
-                <Link href="#">Infografik</Link>
-                <Link href="#">Quiz</Link>
-                <Link href="#">Forum</Link>
-            </nav>
+
 
 
         </header>

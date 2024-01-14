@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40b5df29-96a0-41fd-99fa-a1bf3d0776b9" name="Changes" comment="Grand Update">
-      <change afterPath="$PROJECT_DIR$/app/img/Logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/comments/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/comments/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/timeline.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/timeline.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +97,7 @@
       <workItem from="1703935421179" duration="10634000" />
       <workItem from="1705144407567" duration="3938000" />
       <workItem from="1705233204658" duration="3138000" />
-      <workItem from="1705238681038" duration="7699000" />
+      <workItem from="1705238681038" duration="8295000" />
     </task>
     <task id="LOCAL-00001" summary="Grand Update">
       <option name="closed" value="true" />
@@ -113,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703945427693</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Grand Update">
+      <option name="closed" value="true" />
+      <created>1705249478052</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705249478052</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

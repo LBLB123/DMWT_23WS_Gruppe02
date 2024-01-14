@@ -280,9 +280,7 @@ export default function Home() {
                             um sicherzustellen,
                             dass Elektroschrott auf umweltfreundliche Weise entsorgt wird.
                         </p>
-                        <button className={styles.meinButton}>
-                            Klick mich
-                        </button>
+
                     </div>
                 </div>
                 <div className="T_container right">
@@ -299,9 +297,7 @@ export default function Home() {
                             Nach der Abholung erfolgt der Transport des Elektroschrotts zu geeigneten Verarbeitungseinrichtungen.
                             In vielen Fällen werden Lkws für den Transport eingesetzt,
                             um die Logistik effizient zu gestalten.</p>
-                        <button className={styles.meinButton}>
-                            Klick mich
-                        </button>
+
                     </div>
                 </div>
             </div>
@@ -322,9 +318,7 @@ export default function Home() {
                             Die Demontage kann sowohl manuell als auch automatisiert erfolgen, abhängig von der Art und Größe der Elektrogeräte.
                             Während dieses Schritts werden Bauteile sortiert und für das Recycling vorbereitet.
                         </p>
-                        <button className={styles.meinButton}>
-                            Klick mich
-                        </button>
+
                     </div>
                 </div>
                 <div className="T_container right">
@@ -353,9 +347,7 @@ export default function Home() {
                             minimiert die Menge an Deponiemüll. Ein effektiver Recyclingprozess schließt den Kreislauf und
                             unterstützt die Schaffung nachhaltiger Praktiken im Umgang mit Elektroschrott.
                         </p>
-                        <button className={styles.meinButton}>
-                            Klick mich
-                        </button>
+
                     </div>
                 </div>
             </div>
